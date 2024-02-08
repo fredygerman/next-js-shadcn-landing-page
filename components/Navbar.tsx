@@ -27,10 +27,10 @@ export const Navbar = () => {
           </NavigationMenuItem>
 
           {/* mobile */}
-          <span className="flex md:hidden">
+          <div className="flex md:hidden">
             <ModeToggle />
             <MobileNavFragment />
-          </span>
+          </div>
 
           {/* desktop */}
           <nav className="hidden md:flex gap-2">
