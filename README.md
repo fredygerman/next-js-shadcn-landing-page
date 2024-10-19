@@ -35,10 +35,10 @@ Build your React landing page effortlessly with the required sections to your pr
 
 ## How to install
 
-1. Clone this repositoy:
+1. Clone this repository:
 
 ```bash
-git clone https://github.com/yetu-ai/next-js-shadcn-landing-page.git
+git clone https://github.com/fredygerman/next-js-shadcn-landing-page.git
 ```
 
 2. Go into project
@@ -47,14 +47,20 @@ git clone https://github.com/yetu-ai/next-js-shadcn-landing-page.git
 cd shadcn-landing-page
 ```
 
-3. Install dependencies
+3. Install Bun if you don't have it installed:
 
 ```bash
-npm install
+curl -fsSL https://bun.sh/install | bash
 ```
 
-4. Run project
+4. Install dependencies:
 
 ```bash
-npm run dev
+bun install
+```
+
+5. Run the project:
+
+```bash
+bun dev
 ```
